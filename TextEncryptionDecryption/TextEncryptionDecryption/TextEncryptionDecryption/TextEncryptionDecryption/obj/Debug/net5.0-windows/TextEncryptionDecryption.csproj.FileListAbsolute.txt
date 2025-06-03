@@ -1,0 +1,44 @@
+C:\Users\Jason Yeo\source\repos\TextEncryptionDecryption\TextEncryptionDecryption\bin\Debug\net5.0-windows\TextEncryptionDecryption.exe
+C:\Users\Jason Yeo\source\repos\TextEncryptionDecryption\TextEncryptionDecryption\bin\Debug\net5.0-windows\TextEncryptionDecryption.deps.json
+C:\Users\Jason Yeo\source\repos\TextEncryptionDecryption\TextEncryptionDecryption\bin\Debug\net5.0-windows\TextEncryptionDecryption.runtimeconfig.json
+C:\Users\Jason Yeo\source\repos\TextEncryptionDecryption\TextEncryptionDecryption\bin\Debug\net5.0-windows\TextEncryptionDecryption.runtimeconfig.dev.json
+C:\Users\Jason Yeo\source\repos\TextEncryptionDecryption\TextEncryptionDecryption\bin\Debug\net5.0-windows\TextEncryptionDecryption.dll
+C:\Users\Jason Yeo\source\repos\TextEncryptionDecryption\TextEncryptionDecryption\bin\Debug\net5.0-windows\ref\TextEncryptionDecryption.dll
+C:\Users\Jason Yeo\source\repos\TextEncryptionDecryption\TextEncryptionDecryption\bin\Debug\net5.0-windows\TextEncryptionDecryption.pdb
+C:\Users\Jason Yeo\source\repos\TextEncryptionDecryption\TextEncryptionDecryption\obj\Debug\net5.0-windows\TextEncryptionDecryption.csproj.AssemblyReference.cache
+C:\Users\Jason Yeo\source\repos\TextEncryptionDecryption\TextEncryptionDecryption\obj\Debug\net5.0-windows\MainWindow.g.cs
+C:\Users\Jason Yeo\source\repos\TextEncryptionDecryption\TextEncryptionDecryption\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\Jason Yeo\source\repos\TextEncryptionDecryption\TextEncryptionDecryption\obj\Debug\net5.0-windows\TextEncryptionDecryption_MarkupCompile.cache
+C:\Users\Jason Yeo\source\repos\TextEncryptionDecryption\TextEncryptionDecryption\obj\Debug\net5.0-windows\TextEncryptionDecryption_MarkupCompile.lref
+C:\Users\Jason Yeo\source\repos\TextEncryptionDecryption\TextEncryptionDecryption\obj\Debug\net5.0-windows\MainWindow.baml
+C:\Users\Jason Yeo\source\repos\TextEncryptionDecryption\TextEncryptionDecryption\obj\Debug\net5.0-windows\TextEncryptionDecryption.g.resources
+C:\Users\Jason Yeo\source\repos\TextEncryptionDecryption\TextEncryptionDecryption\obj\Debug\net5.0-windows\TextEncryptionDecryption.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jason Yeo\source\repos\TextEncryptionDecryption\TextEncryptionDecryption\obj\Debug\net5.0-windows\TextEncryptionDecryption.AssemblyInfoInputs.cache
+C:\Users\Jason Yeo\source\repos\TextEncryptionDecryption\TextEncryptionDecryption\obj\Debug\net5.0-windows\TextEncryptionDecryption.AssemblyInfo.cs
+C:\Users\Jason Yeo\source\repos\TextEncryptionDecryption\TextEncryptionDecryption\obj\Debug\net5.0-windows\TextEncryptionDecryption.csproj.CoreCompileInputs.cache
+C:\Users\Jason Yeo\source\repos\TextEncryptionDecryption\TextEncryptionDecryption\obj\Debug\net5.0-windows\TextEncryptionDecryption.dll
+C:\Users\Jason Yeo\source\repos\TextEncryptionDecryption\TextEncryptionDecryption\obj\Debug\net5.0-windows\ref\TextEncryptionDecryption.dll
+C:\Users\Jason Yeo\source\repos\TextEncryptionDecryption\TextEncryptionDecryption\obj\Debug\net5.0-windows\TextEncryptionDecryption.pdb
+C:\Users\Jason Yeo\source\repos\TextEncryptionDecryption\TextEncryptionDecryption\obj\Debug\net5.0-windows\TextEncryptionDecryption.genruntimeconfig.cache
+C:\Users\yeo06\Desktop\TextEncryptionDecryption\TextEncryptionDecryption\TextEncryptionDecryption\bin\Debug\net5.0-windows\TextEncryptionDecryption.exe
+C:\Users\yeo06\Desktop\TextEncryptionDecryption\TextEncryptionDecryption\TextEncryptionDecryption\bin\Debug\net5.0-windows\TextEncryptionDecryption.deps.json
+C:\Users\yeo06\Desktop\TextEncryptionDecryption\TextEncryptionDecryption\TextEncryptionDecryption\bin\Debug\net5.0-windows\TextEncryptionDecryption.runtimeconfig.json
+C:\Users\yeo06\Desktop\TextEncryptionDecryption\TextEncryptionDecryption\TextEncryptionDecryption\bin\Debug\net5.0-windows\TextEncryptionDecryption.runtimeconfig.dev.json
+C:\Users\yeo06\Desktop\TextEncryptionDecryption\TextEncryptionDecryption\TextEncryptionDecryption\bin\Debug\net5.0-windows\TextEncryptionDecryption.dll
+C:\Users\yeo06\Desktop\TextEncryptionDecryption\TextEncryptionDecryption\TextEncryptionDecryption\bin\Debug\net5.0-windows\ref\TextEncryptionDecryption.dll
+C:\Users\yeo06\Desktop\TextEncryptionDecryption\TextEncryptionDecryption\TextEncryptionDecryption\bin\Debug\net5.0-windows\TextEncryptionDecryption.pdb
+C:\Users\yeo06\Desktop\TextEncryptionDecryption\TextEncryptionDecryption\TextEncryptionDecryption\obj\Debug\net5.0-windows\TextEncryptionDecryption.csproj.AssemblyReference.cache
+C:\Users\yeo06\Desktop\TextEncryptionDecryption\TextEncryptionDecryption\TextEncryptionDecryption\obj\Debug\net5.0-windows\MainWindow.g.cs
+C:\Users\yeo06\Desktop\TextEncryptionDecryption\TextEncryptionDecryption\TextEncryptionDecryption\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\yeo06\Desktop\TextEncryptionDecryption\TextEncryptionDecryption\TextEncryptionDecryption\obj\Debug\net5.0-windows\TextEncryptionDecryption_MarkupCompile.cache
+C:\Users\yeo06\Desktop\TextEncryptionDecryption\TextEncryptionDecryption\TextEncryptionDecryption\obj\Debug\net5.0-windows\TextEncryptionDecryption_MarkupCompile.lref
+C:\Users\yeo06\Desktop\TextEncryptionDecryption\TextEncryptionDecryption\TextEncryptionDecryption\obj\Debug\net5.0-windows\MainWindow.baml
+C:\Users\yeo06\Desktop\TextEncryptionDecryption\TextEncryptionDecryption\TextEncryptionDecryption\obj\Debug\net5.0-windows\TextEncryptionDecryption.g.resources
+C:\Users\yeo06\Desktop\TextEncryptionDecryption\TextEncryptionDecryption\TextEncryptionDecryption\obj\Debug\net5.0-windows\TextEncryptionDecryption.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yeo06\Desktop\TextEncryptionDecryption\TextEncryptionDecryption\TextEncryptionDecryption\obj\Debug\net5.0-windows\TextEncryptionDecryption.AssemblyInfoInputs.cache
+C:\Users\yeo06\Desktop\TextEncryptionDecryption\TextEncryptionDecryption\TextEncryptionDecryption\obj\Debug\net5.0-windows\TextEncryptionDecryption.AssemblyInfo.cs
+C:\Users\yeo06\Desktop\TextEncryptionDecryption\TextEncryptionDecryption\TextEncryptionDecryption\obj\Debug\net5.0-windows\TextEncryptionDecryption.csproj.CoreCompileInputs.cache
+C:\Users\yeo06\Desktop\TextEncryptionDecryption\TextEncryptionDecryption\TextEncryptionDecryption\obj\Debug\net5.0-windows\TextEncryptionDecryption.dll
+C:\Users\yeo06\Desktop\TextEncryptionDecryption\TextEncryptionDecryption\TextEncryptionDecryption\obj\Debug\net5.0-windows\ref\TextEncryptionDecryption.dll
+C:\Users\yeo06\Desktop\TextEncryptionDecryption\TextEncryptionDecryption\TextEncryptionDecryption\obj\Debug\net5.0-windows\TextEncryptionDecryption.pdb
+C:\Users\yeo06\Desktop\TextEncryptionDecryption\TextEncryptionDecryption\TextEncryptionDecryption\obj\Debug\net5.0-windows\TextEncryptionDecryption.genruntimeconfig.cache

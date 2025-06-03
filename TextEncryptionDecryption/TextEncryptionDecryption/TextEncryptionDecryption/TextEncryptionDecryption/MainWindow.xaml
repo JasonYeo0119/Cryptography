@@ -1,0 +1,144 @@
+﻿<Window x:Class="TextEncryptionDecryption.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TextEncryptionDecryption"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TabControl>
+            <TabItem Header="AES">
+                <Grid Background="#FFFFFF">
+                    <Label Content="Advanced Encryption Standard (AES)" HorizontalAlignment="Center" Margin="0,35,0,0" VerticalAlignment="Top" FontSize="24" FontWeight="Medium"/>
+                    <Label Content="Secret Key" HorizontalAlignment="Left" Margin="415,93,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="textBox1" HorizontalAlignment="Left" Margin="174,119,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="199" Height="25"/>
+                    <Button x:Name="button1" Content="Encrypt" HorizontalAlignment="Left" Margin="415,197,0,0" VerticalAlignment="Top" Height="25" Width="98" Click="Button1_Click" Background="#FA7070"/>
+                    <Label Content="Original Text" HorizontalAlignment="Left" Margin="169,93,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="textBox2" HorizontalAlignment="Left" Margin="419,119,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="199" Height="25" TextChanged="SecretKey_TextChanged"/>
+                    <Label Content="Encrypted Text" HorizontalAlignment="Left" Margin="169,243,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="textBox3" HorizontalAlignment="Left" Margin="174,270,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="315" Height="25"/>
+                    <Label Content="Decrypted Text" HorizontalAlignment="Left" Margin="169,305,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="textBox4" HorizontalAlignment="Left" Margin="174,332,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="315" Height="25"/>
+                    <Button x:Name="button2" Content="Decrypt" HorizontalAlignment="Left" Margin="518,270,0,0" VerticalAlignment="Top" Height="25" Width="100" Click="Button2_Click" Background="#8DECB4"/>
+                    <ComboBox x:Name="selectionBox1" HorizontalAlignment="Left" Margin="274,196,0,0" VerticalAlignment="Top" Width="98" Height="26" Background="White"/>
+                    <Label Content="Text Format" HorizontalAlignment="Left" Margin="270,170,0,0" VerticalAlignment="Top"/>
+                </Grid>
+            </TabItem>
+
+            <TabItem Header="DES">
+                <Grid Background="#FFFFFF">
+                    <Label Content="Data Encryption Standard (DES)" HorizontalAlignment="Center" Margin="0,35,0,0" VerticalAlignment="Top" FontSize="24" FontWeight="Medium"/>
+                    <Label Content="Secret Key" HorizontalAlignment="Left" Margin="415,93,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="textBox5" HorizontalAlignment="Left" Margin="174,119,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="199" Height="25"/>
+                    <Button x:Name="button3" Content="Encrypt" HorizontalAlignment="Left" Margin="415,197,0,0" VerticalAlignment="Top" Height="25" Width="98" Click="Button3_Click" Background="#FA7070"/>
+                    <Label Content="Original Text" HorizontalAlignment="Left" Margin="169,93,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="textBox6" HorizontalAlignment="Left" Margin="419,119,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="199" Height="25" TextChanged="SecretKeyDES_TextChanged"/>
+                    <Label Content="Encrypted Text" HorizontalAlignment="Left" Margin="169,243,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="textBox7" HorizontalAlignment="Left" Margin="174,270,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="315" Height="25"/>
+                    <Label Content="Decrypted Text" HorizontalAlignment="Left" Margin="169,305,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="textBox8" HorizontalAlignment="Left" Margin="174,332,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="315" Height="25"/>
+                    <Button x:Name="button4" Content="Decrypt" HorizontalAlignment="Left" Margin="518,270,0,0" VerticalAlignment="Top" Height="25" Width="100" Click="Button4_Click" Background="#8DECB4"/>
+                    <ComboBox x:Name="selectionBox2" HorizontalAlignment="Left" Margin="274,196,0,0" VerticalAlignment="Top" Width="98" Height="26"/>
+                    <Label Content="Text Format" HorizontalAlignment="Left" Margin="270,170,0,0" VerticalAlignment="Top"/>
+                </Grid>
+            </TabItem>
+
+            <TabItem Header="TDES">
+                <Grid Background="#FFFFFF">
+                    <Label Content="Triple Data Encryption Standard (TDES)" HorizontalAlignment="Center" Margin="0,35,0,0" VerticalAlignment="Top" FontSize="24" FontWeight="Medium"/>
+                    <Label Content="Secret Key" HorizontalAlignment="Left" Margin="415,93,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="textBox9" HorizontalAlignment="Left" Margin="174,119,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="199" Height="25"/>
+                    <Button x:Name="button5" Content="Encrypt" HorizontalAlignment="Left" Margin="415,197,0,0" VerticalAlignment="Top" Height="25" Width="98" Click="Button5_Click" Background="#FA7070"/>
+                    <Label Content="Original Text" HorizontalAlignment="Left" Margin="169,93,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="textBox10" HorizontalAlignment="Left" Margin="419,119,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="199" Height="25" TextChanged="SecretKeyTDES_TextChanged"/>
+                    <Label Content="Encrypted Text" HorizontalAlignment="Left" Margin="169,243,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="textBox11" HorizontalAlignment="Left" Margin="174,270,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="315" Height="25"/>
+                    <Label Content="Decrypted Text" HorizontalAlignment="Left" Margin="169,305,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="textBox12" HorizontalAlignment="Left" Margin="174,332,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="315" Height="25"/>
+                    <Button x:Name="button6" Content="Decrypt" HorizontalAlignment="Left" Margin="518,270,0,0" VerticalAlignment="Top" Height="25" Width="100" Click="Button6_Click" Background="#8DECB4"/>
+                    <ComboBox x:Name="selectionBox3" HorizontalAlignment="Left" Margin="274,196,0,0" VerticalAlignment="Top" Width="98" Height="26"/>
+                    <Label Content="Text Format" HorizontalAlignment="Left" Margin="270,170,0,0" VerticalAlignment="Top"/>
+                </Grid>
+            </TabItem>
+
+            <TabItem Header="TDES = 3 x DES">
+                <Grid Background="#FFFFFF">
+                    <Label Content="Original Text" HorizontalAlignment="Left" Margin="29,17,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="textBox13" HorizontalAlignment="Left" Margin="33,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="144" Height="23"/>
+                    <Label Content="DES Key 1" HorizontalAlignment="Left" Margin="29,72,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="textBox14" HorizontalAlignment="Left" Margin="33,98,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="144" Height="23" TextChanged="TB14_TextChanged"/>
+                    <Button x:Name="button7" Content="Encrypt K1" HorizontalAlignment="Left" Margin="65,140,0,0" VerticalAlignment="Top" Height="23" Width="80" Click="Button7_Click" Background="#FA7070"/>
+                    <Label Content="Encrypted Text 1" HorizontalAlignment="Left" Margin="227,18,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="textBox15" HorizontalAlignment="Left" Margin="231,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="144" Height="23"/>
+                    <Label Content="DES Key 2" HorizontalAlignment="Left" Margin="227,72,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="textBox16" HorizontalAlignment="Left" Margin="231,98,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="144" Height="23" TextChanged="TB16_TextChanged"/>
+                    <Button x:Name="button8" Content="Decrypt K2" HorizontalAlignment="Left" Margin="263,140,0,0" VerticalAlignment="Top" Height="23" Width="80" Click="Button8_Click" Background="#8DECB4"/>
+                    <Label Content="Encrypted Text 2" HorizontalAlignment="Left" Margin="425,18,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="textBox17" HorizontalAlignment="Left" Margin="429,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="144" Height="23"/>
+                    <Label Content="DES Key 3" HorizontalAlignment="Left" Margin="425,72,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="textBox18" HorizontalAlignment="Left" Margin="429,98,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="144" Height="23" TextChanged="TB18_TextChanged"/>
+                    <Button x:Name="button9" Content="Encrypt K3" HorizontalAlignment="Left" Margin="461,140,0,0" VerticalAlignment="Top" Height="23" Width="80" Click="Button9_Click" Background="#FA7070"/>
+                    <TextBox x:Name="textBox19" HorizontalAlignment="Left" Margin="622,55,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="144" Height="59"/>
+                    <Label Content="Final Encrypted Text" HorizontalAlignment="Left" Margin="617,28,0,0" VerticalAlignment="Top"/>
+                    <Label Content="Final Encrypted Text" HorizontalAlignment="Left" Margin="29,211,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="textBox20" HorizontalAlignment="Left" Margin="33,237,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="144" Height="23"/>
+                    <Label Content="DES Key 3" HorizontalAlignment="Left" Margin="29,265,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="textBox21" HorizontalAlignment="Left" Margin="33,291,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="144" Height="23" TextChanged="TB21_TextChanged"/>
+                    <Button x:Name="button10" Content="Decrypt K1" HorizontalAlignment="Left" Margin="65,333,0,0" VerticalAlignment="Top" Height="23" Width="80" Click="Button10_Click" Background="#8DECB4"/>
+                    <Label Content="Decrypted Text 1" HorizontalAlignment="Left" Margin="227,211,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="textBox22" HorizontalAlignment="Left" Margin="231,237,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="144" Height="23"/>
+                    <Label Content="DES Key 2" HorizontalAlignment="Left" Margin="227,265,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="textBox23" HorizontalAlignment="Left" Margin="231,291,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="144" Height="23" TextChanged="TB23_TextChanged"/>
+                    <Button x:Name="button11" Content="Encrypt K2" HorizontalAlignment="Left" Margin="263,333,0,0" VerticalAlignment="Top" Height="23" Width="80" Click="Button11_Click" Background="#FA7070"/>
+                    <Label Content="Decrypted Text 2" HorizontalAlignment="Left" Margin="425,211,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="textBox24" HorizontalAlignment="Left" Margin="429,237,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="144" Height="23"/>
+                    <Label Content="DES Key 1" HorizontalAlignment="Left" Margin="425,265,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="textBox25" HorizontalAlignment="Left" Margin="429,291,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="144" Height="23" TextChanged="TB25_TextChanged"/>
+                    <Button x:Name="button12" Content="Decrypt K3" HorizontalAlignment="Left" Margin="461,333,0,0" VerticalAlignment="Top" Height="23" Width="80" Click="Button12_Click" Background="#8DECB4"/>
+                    <TextBox x:Name="textBox26" HorizontalAlignment="Left" Margin="622,248,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="144" Height="59"/>
+                    <Label Content="Final Decrypted Text" HorizontalAlignment="Left" Margin="617,222,0,0" VerticalAlignment="Top"/>
+                </Grid>
+            </TabItem>
+
+            <TabItem Header="Hashing">
+                <Grid Background="#FFFFFF">
+                    <Label Content="Hashing" HorizontalAlignment="Center" Margin="0,19,0,0" VerticalAlignment="Top" FontSize="24" FontWeight="Medium"/>
+                    <Label Content="Password" HorizontalAlignment="Left" Margin="124,61,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="hashbox1" HorizontalAlignment="Left" Margin="129,87,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="259" Height="23"/>
+                    <Label Content="Hashed MD5" HorizontalAlignment="Left" Margin="124,110,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="hashbox2" Margin="129,136,129,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="23"/>
+                    <Label Content="Hashed SHA256" HorizontalAlignment="Left" Margin="124,161,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="hashbox3" Margin="129,193,129,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="23"/>
+                    <Label Content="Hashing Salt" HorizontalAlignment="Left" Margin="124,213,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="hashbox4" HorizontalAlignment="Left" Margin="129,239,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="238" Height="23"/>
+                    <Button x:Name="hashb1" Content="Hash For MD5" HorizontalAlignment="Left" Margin="397,81,0,0" VerticalAlignment="Top" Height="35" Width="127" Click="ButtonMD5_Click" Background="#FFC9B7FF"/>
+                    <Button x:Name="hashb2" Content="Hash For SHA256" HorizontalAlignment="Left" Margin="538,81,0,0" VerticalAlignment="Top" Height="35" Width="127" Click="ButtonSHA256_Click" Background="#FFFDBF66"/>
+                    <Button x:Name="hashb3" HorizontalAlignment="Left" Margin="474,229,0,0" VerticalAlignment="Top" Height="43" Width="81" Click="ButtonSaltMD_Click" Background="#FFC9B7FF">
+                        <StackPanel>
+                            <TextBlock HorizontalAlignment="Center">Add Salt to</TextBlock>
+                            <TextBlock HorizontalAlignment="Center">Hashed MD5</TextBlock>
+                        </StackPanel>
+                    </Button>
+                    <Label Content="Salted Hashed MD5" HorizontalAlignment="Left" Margin="125,265,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="hashbox5" Margin="129,291,129,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="23"/>
+                    <Label Content="Salted Hashed SHA256" HorizontalAlignment="Left" Margin="125,316,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="hashbox6" Margin="129,342,129,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="23"/>
+                    <Button x:Name="hashb3_Copy" HorizontalAlignment="Left" Margin="560,229,0,0" VerticalAlignment="Top" Height="43" Width="105" Click="ButtonSaltSHA_Click" Background="#FFFDBF66">
+                        <StackPanel>
+                            <TextBlock HorizontalAlignment="Center"><Run Text="Add Salt to"/></TextBlock>
+                            <TextBlock HorizontalAlignment="Center"><Run Text="Hashed SHA256"/></TextBlock>
+                        </StackPanel>
+                    </Button>
+                    <Button x:Name="showsalt" HorizontalAlignment="Left" Margin="381,229,0,0" VerticalAlignment="Top" Height="43" Width="79" Click="ShowSalt" Background="#8DECB4">
+                        <StackPanel>
+                            <TextBlock HorizontalAlignment="Center"><Run Text="Generate"/></TextBlock>
+                            <TextBlock HorizontalAlignment="Center"><Run Text="Random Salt"/></TextBlock>
+                        </StackPanel>
+                    </Button>
+                </Grid>
+            </TabItem>
+        </TabControl>
+
+    </Grid>
+</Window>
